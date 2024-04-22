@@ -105,6 +105,7 @@ def main():
     """
     Main function to execute the program.
     """
+    # The name of the data file may need to be changed. I set it as data.txt because it was easier
     data = get_file("data.txt")
     washed_stream = clean_string(data)
     set_queues(washed_stream)
